@@ -3,8 +3,8 @@ I would like to visualise London transport system with also London Boroughs show
 
 ```mermaid
 graph TD
-    A[TFL API Data Retrieved] --> B[Download Lines JSON]
-    A[TFL API Data Retrieved] --> C[Download Stops JSON]
+    A[TFL API] --> B[Download Lines JSON]
+    A[TFL API] --> C[Download Stops JSON]
     B --> D[Process Lines Data]
     C --> E[Process Stops Data]
     D --> F[Export Lines to CSV]
