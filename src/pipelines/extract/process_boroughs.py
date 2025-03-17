@@ -2,7 +2,7 @@ import requests
 import os
 
 # Directory path you want to check and create
-data_raw_directory = r'..\..\data\open-intro\raw'
+data_raw_directory = r'..\..\..\data\open-intro\raw'
 data_raw_path = fr'{data_raw_directory}\london_boroughs.csv'
 download_link = 'https://data.london.gov.uk/download/ordnance-survey-code-point/7c07780f-0532-4259-9e92-7e861d5b93c3/CodePointOpen_London_201709.csv'
 
