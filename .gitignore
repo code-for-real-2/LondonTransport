@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore data folder for source control where we will keep data files for processing
+Data/
